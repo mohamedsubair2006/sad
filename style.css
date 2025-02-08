@@ -1,0 +1,97 @@
+/* Reset some basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the background color and font for the entire body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;  /* Light gray background */
+    color: #333;  /* Dark gray text color */
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;  /* Dark background */
+    color: #fff;  /* White text */
+    padding: 20px 0;  /* Padding above and below */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;  /* Large title */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;  /* Centers the navigation items */
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;  /* Removes underline from links */
+    color: #fff;  /* White text */
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover {
+    color: #f4f4f4;  /* Light gray color when hovering */
+}
+
+/* Section styles */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;  /* White background for sections */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Light shadow */
+}
+
+section h2 {
+    font-size: 1.8em;  /* Medium-large heading */
+    margin-bottom: 15px;
+}
+
+section p {
+    font-size: 1.1em;  /* Slightly larger text for paragraphs */
+    line-height: 1.8;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;  /* Stack the nav items vertically on small screens */
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+.img-1{
+    width: 10%;
+    height: 25%;
+    size: 10px;
+}
